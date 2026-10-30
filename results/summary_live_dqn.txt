@@ -1,0 +1,13 @@
+Run label            : live_dqn
+Total requests       : 600
+Failed requests      : 0
+Average latency (ms) : 125.6
+Median latency (ms)  : 95.9
+95th pct latency (ms): 386.3
+Max latency (ms)     : 948.5
+
+srv1: 344 requests, busy time  14800 ms, avg latency 113.1 ms
+srv2: 199 requests, busy time   8780 ms, avg latency 124.8 ms
+srv3:  57 requests, busy time   4360 ms, avg latency 204.6 ms
+
+Jain's fairness index (busy time): 0.826  (1.0 = perfectly balanced)

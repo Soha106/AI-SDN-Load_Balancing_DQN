@@ -1,0 +1,13 @@
+Run label            : rr
+Total requests       : 600
+Failed requests      : 0
+Average latency (ms) : 221.2
+Median latency (ms)  : 134.4
+95th pct latency (ms): 825.7
+Max latency (ms)     : 1614.8
+
+srv1: 200 requests, busy time   8000 ms, avg latency 108.3 ms
+srv2: 200 requests, busy time   8800 ms, avg latency 118.9 ms
+srv3: 200 requests, busy time  17920 ms, avg latency 436.3 ms
+
+Jain's fairness index (busy time): 0.869  (1.0 = perfectly balanced)
